@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+<property>
+  <name>ssl.server.truststore.location</name>
+  <value>/etc/security/ca/clusterTrustStore</value>
+</property>
+<property>
+  <name>ssl.server.truststore.password</name>
+  <value>12312312</value>
+</property>
+<property>
+  <name>ssl.server.truststore.type</name>
+  <value>jks</value>
+</property>
+<property>
+  <name>ssl.server.truststore.reload.interval</name>
+  <value>12312312</value>
+</property>
+<property>
+  <name>ssl.server.keystore.location</name>
+  <value>/etc/security/ca/hostKeyStore</value>
+</property>
+<property>
+  <name>ssl.server.keystore.password</name>
+  <value>12312312</value>
+</property>
+<property>
+  <name>ssl.server.keystore.keypassword</name>
+  <value>12312312</value>
+</property>
+<property>
+  <name>ssl.server.keystore.type</name>
+  <value>jks</value>
+</property>
+
+</configuration>
